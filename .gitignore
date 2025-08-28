@@ -1,0 +1,30 @@
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esult*/
+*.nupkg
+packages/
+**/launchSettings.json
+
+# Rider/JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+
+# Logs / OS
+*.log
+logs/
+Thumbs.db
+.DS_Store

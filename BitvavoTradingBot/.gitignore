@@ -1,0 +1,22 @@
+# Build outputs
+bin/
+obj/
+**/*.user
+*.suo
+*.userprefs
+*.DS_Store
+*.vscode/
+*.idea/
+/TestResults/
+/packages/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Dotnet tools
+.dotnet-tools/
