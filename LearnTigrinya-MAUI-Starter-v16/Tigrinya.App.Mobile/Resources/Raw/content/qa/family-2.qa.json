@@ -1,0 +1,17 @@
+[
+  {
+    "id": "spelling_labels",
+    "title": "Spelling: Tigrinya lines verified",
+    "suggestedRole": "Native speaker"
+  },
+  {
+    "id": "audio_quality",
+    "title": "Audio: pronunciation clear & natural",
+    "suggestedRole": "Voice talent"
+  },
+  {
+    "id": "translations",
+    "title": "EN/NL translations accurate",
+    "suggestedRole": "Bilingual reviewer"
+  }
+]

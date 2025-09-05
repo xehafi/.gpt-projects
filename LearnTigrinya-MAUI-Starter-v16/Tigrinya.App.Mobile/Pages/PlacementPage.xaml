@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tigrinya.App.Mobile.Pages.PlacementPage">
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+            <Label x:Name="TitleLabel" Text="Placement Check" FontSize="24" />
+            <Label x:Name="DescLabel" Text="..." />
+            <Frame>
+                <VerticalStackLayout Spacing="8">
+                    <Label x:Name="Q1Label" Text="..." />
+                    <HorizontalStackLayout Spacing="8">
+                        <Button Text="ሁ" Clicked="OnQ1" />
+                        <Button Text="ሀ" Clicked="OnQ1" />
+                        <Button Text="ሂ" Clicked="OnQ1" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame>
+                <VerticalStackLayout Spacing="8">
+                    <Label x:Name="Q2Label" Text="..." />
+                    <Button x:Name="PlayBtn" Text="▶ Play" Clicked="OnPlayQ2" />
+                    <HorizontalStackLayout Spacing="8">
+                        <Button Text="5" Clicked="OnQ2" />
+                        <Button Text="7" Clicked="OnQ2" />
+                        <Button Text="9" Clicked="OnQ2" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame>
+                <VerticalStackLayout Spacing="8">
+                    <Label x:Name="Q3Label" Text="..." />
+                    <HorizontalStackLayout Spacing="8">
+                        <Button Text="ሰላም!" Clicked="OnQ3" />
+                        <Button Text="ባዕሉ ሓደ" Clicked="OnQ3" />
+                        <Button Text="€5,00" Clicked="OnQ3" />
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+            <Button x:Name="FinishBtn" Text="Finish" Clicked="OnFinish" />
+            <Label x:Name="StatusLabel" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

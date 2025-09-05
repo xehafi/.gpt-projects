@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net9.0-android</TargetFrameworks>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationTitle>Learn Tigrinya</ApplicationTitle>
+    <ApplicationId>com.learn.tigrinya</ApplicationId>
+    <RootNamespace>Tigrinya.App.Mobile</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <MauiImage Include="Resources\Images\**\*.*" />
+    <MauiAsset Include="Resources\Raw\**\*.*" />
+    <MauiXaml Update="**\*.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.9.0" />
+    <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="3.119.0" />
+    <PackageReference Include="Plugin.Maui.Audio" Version="2.2.2" />
+  </ItemGroup>
+</Project>
+

@@ -1,0 +1,61 @@
+{
+  "id": "alphabet-1",
+  "title": "Alphabet I — ሀ-series (ha)",
+  "tasks": [
+    {
+      "type": "trace",
+      "glyph": "ሀ",
+      "prompt_en": "Trace ሀ",
+      "prompt_nl": "Trek ሀ over"
+    },
+    {
+      "type": "listen_select",
+      "audio": "ha_01.opus",
+      "prompt_en": "Tap the matching sound (ha-series)",
+      "choices": [
+        "ሀ",
+        "ሁ",
+        "ሂ",
+        "ሃ",
+        "ሄ",
+        "ህ",
+        "ሆ"
+      ],
+      "answer": "ሀ"
+    },
+    {
+      "type": "read_tile",
+      "tiles": [
+        "ሀ",
+        "ሁ",
+        "ሂ",
+        "ሃ",
+        "ሄ",
+        "ህ",
+        "ሆ"
+      ],
+      "prompt_en": "Tap tiles in order: ሀ → ሆ"
+    },
+    {
+      "type": "type_mini_keyboard",
+      "prompt_en": "Type the character using the Ethiopic keyboard",
+      "answer": "ሀ"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for: ላም (cow)",
+      "choices": [
+        "🐄",
+        "🐕",
+        "🐈"
+      ],
+      "answer": "🐄",
+      "images": [
+        "animals/cow.png",
+        "animals/dog.png",
+        "animals/cat.png"
+      ],
+      "answer_image": "animals/cow.png"
+    }
+  ]
+}

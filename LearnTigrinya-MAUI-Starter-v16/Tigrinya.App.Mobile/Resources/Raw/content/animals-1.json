@@ -1,0 +1,68 @@
+{
+  "id": "animals-1",
+  "title": "Animals I — Pictures & Labels",
+  "tasks": [
+    {
+      "type": "flashcard",
+      "front_text": "ላም — (Tigrinya: cow)",
+      "back_text": "EN: cow • NL: koe",
+      "tig_text": "ላም",
+      "en_text": "cow",
+      "nl_text": "koe",
+      "audio_tig": "audio/animals/cow.opus"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for cow",
+      "images": [
+        "animals/cow.png",
+        "animals/dog.png",
+        "animals/cat.png"
+      ],
+      "answer_image": "animals/cow.png",
+      "tig_text": "ላም",
+      "audio_tig": "audio/animals/cow.opus"
+    },
+    {
+      "type": "label_match",
+      "prompt_en": "Pick the label for this animal",
+      "answer_image": "animals/dog.png",
+      "label_choices": [
+        {
+          "en": "dog",
+          "nl": "hond",
+          "tig": "ከልቢ"
+        },
+        {
+          "en": "cat",
+          "nl": "kat",
+          "tig": "ድሙ"
+        },
+        {
+          "en": "cow",
+          "nl": "koe",
+          "tig": "ላም"
+        }
+      ],
+      "correct_label": {
+        "en": "dog",
+        "nl": "hond",
+        "tig": "ከልቢ"
+      },
+      "tig_text": "ከልቢ",
+      "audio_tig": "audio/animals/dog.opus"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for lion",
+      "images": [
+        "animals/goat.png",
+        "animals/lion.png",
+        "animals/horse.png"
+      ],
+      "answer_image": "animals/lion.png",
+      "tig_text": "ኣንበሳ",
+      "audio_tig": "audio/animals/lion.opus"
+    }
+  ]
+}

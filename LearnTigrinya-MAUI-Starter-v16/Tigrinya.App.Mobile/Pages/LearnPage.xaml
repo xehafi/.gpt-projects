@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Tigrinya.App.Mobile.ViewModels"
+             x:Class="Tigrinya.App.Mobile.Pages.LearnPage">
+    <ContentPage.BindingContext>
+        <vm:LearnViewModel />
+    </ContentPage.BindingContext>
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+            <Frame Padding="8" BackgroundColor="#EEF2FF" HasShadow="False">
+                <Label Text="{Binding XpBanner}" FontSize="12" />
+            </Frame>
+            <Label Text="{Binding LearnTitle}" FontSize="24" />
+            <Label Text="{Binding StartHereTitle}" FontAttributes="Bold" Margin="16,8,16,0" IsVisible="{Binding HasStartHere}" />
+        <CollectionView ItemsSource="{Binding StartHere}" ItemsLayout="HorizontalList" IsVisible="{Binding HasStartHere}" Margin="0,0,0,8">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="12" Margin="8" HasShadow="True">
+                        <VerticalStackLayout>
+                            <Label Text="{Binding Title}" FontAttributes="Bold" />
+                            <Label Text="{Binding Description}" FontSize="12" />
+                            <Button Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.LearnTitle, StringFormat=''}" IsVisible="False" />
+                            <Button Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StartLabel}" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenLessonCommand}" CommandParameter="{Binding Id}" />
+                        </VerticalStackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <CollectionView ItemsSource="{Binding Skills}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="12" Margin="6" BackgroundColor="{DynamicResource SecondaryColor}" HasShadow="True">
+                            <VerticalStackLayout Spacing="6">
+                                <Label Text="{Binding Title}" FontAttributes="Bold" />
+                                <Label IsVisible="{Binding Recommended}" Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StartHereTitle}" FontSize="10" TextColor="Green" />
+                                <Label Text="{Binding Description}" FontSize="12" />
+                                <Button Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.LearnTitle, StringFormat=''}" IsVisible="False" />
+                            <Button Text="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.StartLabel}" Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.OpenLessonCommand}" CommandParameter="{Binding Id}" />
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

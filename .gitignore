@@ -28,3 +28,4 @@ coverage/
 logs/
 Thumbs.db
 .DS_Store
+/readme.txt

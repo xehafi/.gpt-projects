@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tigrinya.App.Mobile.Pages.LessonPlayerPage">
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="6" />
+            <Setter Property="Padding" Value="12,6" />
+        </Style>
+    </ContentPage.Resources>
+    <Grid RowDefinitions="Auto,*,Auto" Padding="16" RowSpacing="8">
+        <!-- Header -->
+        <Label x:Name="TitleLabel" FontSize="22" FontAttributes="Bold" Grid.Row="0" />
+        <!-- Task host -->
+        <ContentView x:Name="TaskHost" Grid.Row="1" />
+        <!-- Footer controls -->
+        <Grid Grid.Row="2" ColumnDefinitions="*,Auto,Auto" ColumnSpacing="8">
+            <Label x:Name="ProgressLabel" />
+            <Button Text="Skip" Clicked="OnSkip" Grid.Column="1" />
+            <Button Text="Next" Clicked="OnNext" Grid.Column="2" />
+        </Grid>
+    </Grid>
+</ContentPage>
