@@ -1,0 +1,17 @@
+[
+  {
+    "id": "audio_numbers",
+    "title": "Audio for 2‑digit numbers recorded (58, etc.)",
+    "suggestedRole": "Voice talent"
+  },
+  {
+    "id": "price_format",
+    "title": "Price formats use local style (€, comma)",
+    "suggestedRole": "Reviewer (NL/EU)"
+  },
+  {
+    "id": "phone_examples",
+    "title": "Phone patterns realistic for target region",
+    "suggestedRole": "Reviewer"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "id": "household-2",
+  "title": "Household II — Kitchen & Bath",
+  "tasks": [
+    {
+      "type": "flashcard",
+      "tig_text": "—",
+      "en_text": "soap",
+      "nl_text": "zeep",
+      "audio_tig": "audio/household/soap.opus"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for: spoon",
+      "images": [
+        "household/spoon.png",
+        "household/plate.png",
+        "household/knife.png"
+      ],
+      "answer_image": "household/spoon.png",
+      "tig_text": "—",
+      "audio_tig": "audio/household/spoon.opus"
+    },
+    {
+      "type": "label_match",
+      "prompt_en": "Pick the label",
+      "answer_image": "household/towel.png",
+      "label_choices": [
+        {
+          "en": "towel",
+          "nl": "handdoek"
+        },
+        {
+          "en": "soap",
+          "nl": "zeep"
+        },
+        {
+          "en": "toothbrush",
+          "nl": "tandenborstel"
+        }
+      ],
+      "correct_label": {
+        "en": "towel",
+        "nl": "handdoek"
+      },
+      "tig_text": "—",
+      "audio_tig": "audio/household/towel.opus"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for: mirror",
+      "images": [
+        "household/mirror.png",
+        "household/soap.png",
+        "household/toothbrush.png"
+      ],
+      "answer_image": "household/mirror.png",
+      "tig_text": "—",
+      "audio_tig": "audio/household/mirror.opus"
+    }
+  ]
+}

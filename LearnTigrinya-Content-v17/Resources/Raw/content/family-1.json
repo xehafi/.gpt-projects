@@ -1,0 +1,78 @@
+{
+  "id": "family-1",
+  "title": "Family I — Core words",
+  "tasks": [
+    {
+      "type": "flashcard",
+      "tig_text": "ኣደ",
+      "en_text": "mother",
+      "nl_text": "moeder",
+      "audio_tig": "audio/family/mother.opus"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for: mother",
+      "images": [
+        "family/mother.png",
+        "family/father.png",
+        "family/daughter.png"
+      ],
+      "answer_image": "family/mother.png",
+      "tig_text": "ኣደ",
+      "audio_tig": "audio/family/mother.opus"
+    },
+    {
+      "type": "label_match",
+      "prompt_en": "Pick the label",
+      "answer_image": "family/father.png",
+      "label_choices": [
+        {
+          "en": "father",
+          "nl": "vader"
+        },
+        {
+          "en": "mother",
+          "nl": "moeder"
+        },
+        {
+          "en": "brother",
+          "nl": "broer"
+        }
+      ],
+      "correct_label": {
+        "en": "father",
+        "nl": "vader"
+      },
+      "tig_text": "ኣቦ",
+      "audio_tig": "audio/family/father.opus"
+    },
+    {
+      "type": "flashcard",
+      "tig_text": "ሓፍቲ",
+      "en_text": "sister",
+      "nl_text": "zus",
+      "audio_tig": "audio/family/sister.opus"
+    },
+    {
+      "type": "flashcard",
+      "tig_text": "ሓወ",
+      "en_text": "brother",
+      "nl_text": "broer",
+      "audio_tig": "audio/family/brother.opus"
+    },
+    {
+      "type": "translate_select",
+      "tig_text": "ሰላም! ከመይ ወይ?",
+      "quiz_choices_en": [
+        "Hello! How are you?",
+        "Good night!"
+      ],
+      "quiz_choices_nl": [
+        "Hallo! Hoe gaat het?",
+        "Welterusten!"
+      ],
+      "answer_index": 0,
+      "audio_tig": "audio/greetings/selam.opus"
+    }
+  ]
+}

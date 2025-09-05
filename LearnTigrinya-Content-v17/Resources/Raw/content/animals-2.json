@@ -1,0 +1,62 @@
+{
+  "id": "animals-2",
+  "title": "Animals II — Wildlife",
+  "tasks": [
+    {
+      "type": "flashcard",
+      "tig_text": "—",
+      "en_text": "elephant",
+      "nl_text": "olifant",
+      "audio_tig": "audio/animals/elephant.opus"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for: giraffe",
+      "images": [
+        "animals/giraffe.png",
+        "animals/zebra.png",
+        "animals/monkey.png"
+      ],
+      "answer_image": "animals/giraffe.png",
+      "tig_text": "—",
+      "audio_tig": "audio/animals/giraffe.opus"
+    },
+    {
+      "type": "label_match",
+      "prompt_en": "Pick the label",
+      "answer_image": "animals/zebra.png",
+      "label_choices": [
+        {
+          "en": "zebra",
+          "nl": "zebra"
+        },
+        {
+          "en": "camel",
+          "nl": "kameel"
+        },
+        {
+          "en": "hyena",
+          "nl": "hyena"
+        }
+      ],
+      "correct_label": {
+        "en": "zebra",
+        "nl": "zebra"
+      },
+      "tig_text": "—",
+      "audio_tig": "audio/animals/zebra.opus"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for: leopard",
+      "images": [
+        "animals/leopard.png",
+        "animals/monkey.png",
+        "animals/hyena.png"
+      ],
+      "answer_image": "animals/leopard.png",
+      "tig_text": "—",
+      "audio_tig": "audio/animals/leopard.opus"
+    }
+  ]
+}

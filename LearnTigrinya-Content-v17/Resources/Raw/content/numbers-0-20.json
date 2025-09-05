@@ -1,0 +1,62 @@
+{
+  "id": "numbers-0-20",
+  "title": "Numbers 0–20 — Read & Type",
+  "tasks": [
+    {
+      "type": "grammar_tip",
+      "title": "Digits 0–9",
+      "tip_en": "Learn to recognize and type 0–9 quickly. We'll focus on numerals first, then introduce number words.",
+      "examples": [
+        {
+          "tig": "0 1 2 3 4 5 6 7 8 9",
+          "translation_en": "digits"
+        }
+      ],
+      "quiz_choices": [
+        "7",
+        "70"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "listen_number",
+      "target_number": 7,
+      "choices": [
+        "5",
+        "7",
+        "9",
+        "3"
+      ]
+    },
+    {
+      "type": "type_number",
+      "target_number": 12,
+      "prompt_en": "Type the number you see: 12"
+    },
+    {
+      "type": "price_match",
+      "price_text": "€3,50",
+      "choices": [
+        "€3,50",
+        "€2,50",
+        "$3.50"
+      ]
+    },
+    {
+      "type": "listen_number",
+      "target_number": 19,
+      "choices": [
+        "9",
+        "14",
+        "19",
+        "12"
+      ]
+    },
+    {
+      "type": "type_number",
+      "target_number": 20,
+      "prompt_en": "Type the number you hear",
+      "audio": "num_20.opus"
+    }
+  ]
+}

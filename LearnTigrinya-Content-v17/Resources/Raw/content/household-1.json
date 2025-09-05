@@ -1,0 +1,52 @@
+{
+  "id": "household-1",
+  "title": "Household I — Pictures & Labels",
+  "tasks": [
+    {
+      "type": "flashcard",
+      "tig_text": "ኩባያ",
+      "en_text": "cup",
+      "nl_text": "kopje",
+      "audio_tig": "audio/household/cup.opus"
+    },
+    {
+      "type": "picture_word",
+      "prompt_en": "Tap the picture for chair",
+      "images": [
+        "household/chair.png",
+        "household/table.png",
+        "household/bed.png"
+      ],
+      "answer_image": "household/chair.png",
+      "tig_text": "መንበር",
+      "audio_tig": "audio/household/chair.opus"
+    },
+    {
+      "type": "label_match",
+      "prompt_en": "Pick the label for this item",
+      "answer_image": "household/cup.png",
+      "label_choices": [
+        {
+          "en": "cup",
+          "nl": "kopje",
+          "tig": "ኩባያ"
+        },
+        {
+          "en": "table",
+          "nl": "tafel",
+          "tig": "ጣውላ"
+        },
+        {
+          "en": "bed",
+          "nl": "bed",
+          "tig": "ዓራት"
+        }
+      ],
+      "correct_label": {
+        "en": "cup",
+        "nl": "kopje",
+        "tig": "ኩባያ"
+      }
+    }
+  ]
+}

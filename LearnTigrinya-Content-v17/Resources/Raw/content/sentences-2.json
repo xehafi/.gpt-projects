@@ -1,0 +1,53 @@
+{
+  "id": "sentences-2",
+  "title": "Basic Sentences II — Negation & word order (scaffold)",
+  "tasks": [
+    {
+      "type": "grammar_tip",
+      "title": "Negation — placeholder",
+      "tip_en": "Practice saying 'not' in simple statements (final Tigrinya forms to be QA-verified).",
+      "examples": [
+        {
+          "tig": "—",
+          "gloss_en": "I am not ...",
+          "translation_en": "I am not ..."
+        },
+        {
+          "tig": "—",
+          "gloss_en": "It is not ...",
+          "translation_en": "It is not ..."
+        }
+      ],
+      "quiz_choices": [
+        "I am not fine.",
+        "I am fine."
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "order_words",
+      "prompt_en": "Build: This is my mother.",
+      "tig_text": "—",
+      "tokens": [
+        "—",
+        "—",
+        "—"
+      ],
+      "audio_tig": "audio/family/this_is_my_mother.opus"
+    },
+    {
+      "type": "translate_select",
+      "tig_text": "—",
+      "quiz_choices_en": [
+        "He is not my brother.",
+        "He is my brother."
+      ],
+      "quiz_choices_nl": [
+        "Hij is niet mijn broer.",
+        "Hij is mijn broer."
+      ],
+      "answer_index": 0,
+      "audio_tig": "audio/family/not_my_brother.opus"
+    }
+  ]
+}
