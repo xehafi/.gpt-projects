@@ -55,12 +55,12 @@ public class DbService
     public Task<int> UpsertSrsAsync(SrsRecord rec) =>
         _db.InsertOrReplaceAsync(rec);
 
-    internal async Task InitAsync()
+    internal Task InitAsync()
     {
         throw new NotImplementedException();
     }
 
-    internal async Task UpsertQaRecordAsync(Services.QaRecord rec)
+    internal Task UpsertQaRecordAsync(Services.QaRecord rec)
     {
         throw new NotImplementedException();
     }

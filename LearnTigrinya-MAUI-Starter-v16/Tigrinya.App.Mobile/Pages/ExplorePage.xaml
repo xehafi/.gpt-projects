@@ -4,6 +4,10 @@
              x:Class="Tigrinya.App.Mobile.Pages.ExplorePage">
     <ScrollView>
         <VerticalStackLayout Padding="16" Spacing="12">
+            <Label x:Name="TitleLabel"
+       Text="Explore"
+       FontSize="24"
+       HorizontalTextAlignment="Center" />
             <Label Text="Alphabet Lab" FontSize="24" />
             <Label Text="Tap a glyph to hear it." />
             <FlexLayout Wrap="Wrap" JustifyContent="SpaceEvenly">
