@@ -1,0 +1,22 @@
+[
+  {
+    "id": "spelling_labels",
+    "title": "Spelling: Tigrinya labels verified",
+    "suggestedRole": "Native speaker"
+  },
+  {
+    "id": "audio_quality",
+    "title": "Audio: pronunciation clear & natural",
+    "suggestedRole": "Voice talent"
+  },
+  {
+    "id": "gloss_review",
+    "title": "Glosses & translations accurate (EN/NL)",
+    "suggestedRole": "Bilingual reviewer"
+  },
+  {
+    "id": "cultural_notes",
+    "title": "Cultural usage/sensitivity checked",
+    "suggestedRole": "Cultural advisor"
+  }
+]

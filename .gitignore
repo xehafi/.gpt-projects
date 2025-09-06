@@ -29,3 +29,8 @@ worker/.env
 *.sqlite
 /BitvavoTradingBot/.vs
 /BitvavoTradingFramework/.vs/BitvavoTradingFramework
+logs/
+Thumbs.db
+.DS_Store
+/readme.txt
+/readme.txt

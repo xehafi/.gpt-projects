@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tigrinya.App.Mobile.Pages.ExplorePage">
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+            <Label x:Name="TitleLabel"
+       Text="Explore"
+       FontSize="24"
+       HorizontalTextAlignment="Center" />
+            <Label Text="Alphabet Lab" FontSize="24" />
+            <Label Text="Tap a glyph to hear it." />
+            <FlexLayout Wrap="Wrap" JustifyContent="SpaceEvenly">
+                <Button Text="ሀ" Clicked="OnPlayGlyph" />
+                <Button Text="ሁ" Clicked="OnPlayGlyph" />
+                <Button Text="ሂ" Clicked="OnPlayGlyph" />
+                <Button Text="ሃ" Clicked="OnPlayGlyph" />
+                <Button Text="ሄ" Clicked="OnPlayGlyph" />
+                <Button Text="ህ" Clicked="OnPlayGlyph" />
+                <Button Text="ሆ" Clicked="OnPlayGlyph" />
+            </FlexLayout>
+                    <Button Text="Open QA Review" Clicked="OnOpenQa" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

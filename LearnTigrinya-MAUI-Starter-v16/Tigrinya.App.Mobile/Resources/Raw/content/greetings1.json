@@ -1,0 +1,52 @@
+{
+  "id": "greetings-1",
+  "title": "Greetings I — Meet & Greet",
+  "tasks": [
+    {
+      "type": "grammar_tip",
+      "title": "Greetings & 'How are you?'",
+      "tip_en": "A common greeting is ሰላም! (selam!) followed by ከመይ ወይ? (kemey wey?) — “How are you?”",
+      "examples": [
+        {
+          "tig": "ሰላም! ከመይ ወይ?",
+          "gloss_en": "peace! how be?",
+          "translation_en": "Hello! How are you?"
+        },
+        {
+          "tig": "ደሓን'የ።",
+          "gloss_en": "well-I.am",
+          "translation_en": "I am fine."
+        }
+      ],
+      "quiz_choices": [
+        "ሰላም!",
+        "ኣይፋል!"
+      ],
+      "answer_index": 0
+    },
+    {
+      "type": "dialog_goal",
+      "goal": "Greet a neighbor politely",
+      "dialog": [
+        {
+          "prompt_en": "They say: ሰላም!",
+          "audio": "greet_a.opus",
+          "choices": [
+            "ሰላም!",
+            "ደሓን ኩን!"
+          ],
+          "answer_index": 0
+        },
+        {
+          "prompt_en": "They ask: ከመይ ወይ?",
+          "audio": "how_are_you.opus",
+          "choices": [
+            "ደሓን'የ።",
+            "ሰላም!"
+          ],
+          "answer_index": 0
+        }
+      ]
+    }
+  ]
+}
