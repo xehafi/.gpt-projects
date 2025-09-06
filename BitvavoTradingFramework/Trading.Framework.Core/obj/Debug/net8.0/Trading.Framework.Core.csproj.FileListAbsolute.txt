@@ -1,0 +1,13 @@
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\bin\Debug\net8.0\Trading.Framework.Core.deps.json
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\bin\Debug\net8.0\Trading.Framework.Core.dll
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\bin\Debug\net8.0\Trading.Framework.Core.pdb
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\Trading.Framework.Core.csproj.AssemblyReference.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\Trading.Framework.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\Trading.Framework.Core.AssemblyInfoInputs.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\Trading.Framework.Core.AssemblyInfo.cs
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\Trading.Framework.Core.csproj.CoreCompileInputs.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\Trading.Framework.Core.sourcelink.json
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\Trading.Framework.Core.dll
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\refint\Trading.Framework.Core.dll
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\Trading.Framework.Core.pdb
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Core\obj\Debug\net8.0\ref\Trading.Framework.Core.dll

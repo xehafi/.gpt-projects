@@ -1,0 +1,7 @@
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_Trading.Framework.Tests
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Tests\obj\Debug\net8.0\Trading.Framework.Tests.csproj.AssemblyReference.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Tests\obj\Debug\net8.0\Trading.Framework.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Tests\obj\Debug\net8.0\Trading.Framework.Tests.AssemblyInfoInputs.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Tests\obj\Debug\net8.0\Trading.Framework.Tests.AssemblyInfo.cs
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Tests\obj\Debug\net8.0\Trading.Framework.Tests.csproj.CoreCompileInputs.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Tests\obj\Debug\net8.0\Trading.Framework.Tests.sourcelink.json

@@ -1,0 +1,14 @@
+@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Bitvavo Trading Framework";
+}
+<div class="text-center">
+    <h1 class="display-6">Bitvavo Trading Framework</h1>
+    <p class="lead">Razor starter &mdash; wired for local PostgreSQL 17 (no Docker).</p>
+    <ul class="text-start mx-auto" style="max-width: 680px">
+        <li>Edit <code>appsettings.json</code> for your DB connection.</li>
+        <li>Console app streams mock Bitvavo tickers every second and writes to <code>public.tickers</code>.</li>
+        <li>Replace the stub <code>BitvavoTickerSource</code> with a real WebSocket client when ready.</li>
+    </ul>
+</div>

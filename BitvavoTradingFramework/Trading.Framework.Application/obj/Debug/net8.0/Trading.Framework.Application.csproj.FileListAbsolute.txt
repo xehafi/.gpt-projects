@@ -1,0 +1,16 @@
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\bin\Debug\net8.0\Trading.Framework.Application.deps.json
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\bin\Debug\net8.0\Trading.Framework.Application.dll
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\bin\Debug\net8.0\Trading.Framework.Application.pdb
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\bin\Debug\net8.0\Trading.Framework.Core.dll
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\bin\Debug\net8.0\Trading.Framework.Core.pdb
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading.Framework.Application.csproj.AssemblyReference.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading.Framework.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading.Framework.Application.AssemblyInfoInputs.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading.Framework.Application.AssemblyInfo.cs
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading.Framework.Application.csproj.CoreCompileInputs.cache
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading.Framework.Application.sourcelink.json
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading..40A96692.Up2Date
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading.Framework.Application.dll
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\refint\Trading.Framework.Application.dll
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\Trading.Framework.Application.pdb
+D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Application\obj\Debug\net8.0\ref\Trading.Framework.Application.dll
