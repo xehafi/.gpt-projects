@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tigrigna.App.Mobile2</name>
+    </assembly>
+    <members>
+        <member name="T:Tigrigna.App.Mobile2.ViewModels.LearnViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.Skills">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.skills"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.LearnTitle">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.learnTitle"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.StartHereTitle">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.startHereTitle"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.XpBanner">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.xpBanner"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.StartLabel">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.startLabel"/>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.loadCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.LoadCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.LoadCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.LoadAsync"/>.</summary>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.openLessonCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.OpenLessonCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.OpenLessonCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.OpenLesson(Tigrigna.App.Mobile2.Models.SkillCard)"/>.</summary>
+        </member>
+        <member name="T:Tigrigna.App.Mobile2.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Skills">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Skills" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LearnTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LearnTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartHereTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartHereTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.XpBanner">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "XpBanner" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartLabel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartLabel" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Skills">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Skills" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LearnTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LearnTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartHereTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartHereTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.XpBanner">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "XpBanner" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartLabel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartLabel" generated properties.</summary>
+        </member>
+    </members>
+</doc>

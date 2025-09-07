@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tigrinya.App.Mobile</name>
+    </assembly>
+    <members>
+        <member name="T:Tigrinya.App.Mobile.ViewModels.LearnViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.LearnViewModel.Skills">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.LearnViewModel.skills"/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.LearnViewModel.LearnTitle">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.LearnViewModel.learnTitle"/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.LearnViewModel.StartHereTitle">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.LearnViewModel.startHereTitle"/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.LearnViewModel.XpBanner">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.LearnViewModel.xpBanner"/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.LearnViewModel.StartLabel">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.LearnViewModel.startLabel"/>
+        </member>
+        <member name="T:Tigrinya.App.Mobile.ViewModels.ProfileViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.SelectedBaseLanguage">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.selectedBaseLanguage"/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.SelectedAvatar">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.selectedAvatar"/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.SelectedOutfit">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.selectedOutfit"/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.SelectedDailyGoal">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.selectedDailyGoal"/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.TodayXp">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.ProfileViewModel.todayXp"/>
+        </member>
+        <member name="T:Tigrinya.App.Mobile.ViewModels.ReviewViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrinya.App.Mobile.ViewModels.ReviewViewModel.DueSummary">
+            <inheritdoc cref="F:Tigrinya.App.Mobile.ViewModels.ReviewViewModel.dueSummary"/>
+        </member>
+        <member name="T:Tigrinya.App.Mobile.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Skills">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Skills" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LearnTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LearnTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartHereTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartHereTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.XpBanner">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "XpBanner" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartLabel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartLabel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedBaseLanguage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedBaseLanguage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedAvatar">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedAvatar" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedOutfit">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedOutfit" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedDailyGoal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedDailyGoal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TodayXp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TodayXp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DueSummary">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DueSummary" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Skills">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Skills" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LearnTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LearnTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartHereTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartHereTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.XpBanner">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "XpBanner" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartLabel">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartLabel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedBaseLanguage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedBaseLanguage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedAvatar">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedAvatar" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedOutfit">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedOutfit" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedDailyGoal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedDailyGoal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TodayXp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TodayXp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DueSummary">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DueSummary" generated properties.</summary>
+        </member>
+    </members>
+</doc>
