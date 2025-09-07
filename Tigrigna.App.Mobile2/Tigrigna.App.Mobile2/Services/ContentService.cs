@@ -14,5 +14,10 @@ public class ContentService
         ];
         return Task.FromResult(skills);
     }
+    public async Task<SkillCard?> GetSkillByIdAsync(string id)
+    {
+        var list = await GetStarterSkillsAsync();
+        return list.FirstOrDefault(s => s.Id == id);
+    }
 }
 

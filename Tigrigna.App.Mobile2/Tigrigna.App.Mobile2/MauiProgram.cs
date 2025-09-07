@@ -29,6 +29,11 @@ public static class MauiProgram
         builder.Services.AddTransient<LearnViewModel>();
         builder.Services.AddTransient<LearnPage>();
 
+        builder.Services.AddSingleton<INavigationService, ShellNavigationService>();
+
+        builder.Services.AddTransient<LessonViewModel>();
+        builder.Services.AddTransient<LessonPage>();
+
         var app = builder.Build();
         Ioc.Default.ConfigureServices(app.Services);
         return app;

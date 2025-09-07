@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Tigrigna.App.Mobile2.Views.LessonPage"
+    Title="Lesson">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="12">
+            <Label Text="{Binding Icon}" FontSize="48" />
+            <Label Text="{Binding Title}" FontSize="28" FontAttributes="Bold" />
+            <Label Text="{Binding Subtitle}" FontSize="16" />
+            <Frame Padding="12">
+                <HorizontalStackLayout Spacing="8">
+                    <Label Text="XP:" FontAttributes="Bold" />
+                    <Label Text="{Binding Xp}" />
+                </HorizontalStackLayout>
+            </Frame>
+
+            <Button Text="Back" Clicked="OnBackClicked" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

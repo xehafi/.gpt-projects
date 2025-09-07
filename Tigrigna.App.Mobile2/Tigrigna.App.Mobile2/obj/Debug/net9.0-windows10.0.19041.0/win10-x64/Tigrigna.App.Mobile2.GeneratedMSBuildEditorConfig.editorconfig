@@ -62,3 +62,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tigrigna.App.Mobile2.Views.LearnPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LearnPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LearnPage.xaml
+
+[C:/.gpt-projects/Tigrigna.App.Mobile2/Tigrigna.App.Mobile2/Views/LessonPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Tigrigna.App.Mobile2.Views.LessonPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LessonPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LessonPage.xaml
