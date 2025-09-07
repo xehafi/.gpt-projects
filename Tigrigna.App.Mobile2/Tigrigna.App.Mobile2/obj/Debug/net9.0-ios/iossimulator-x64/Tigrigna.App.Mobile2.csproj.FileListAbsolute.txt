@@ -1,4 +1,3 @@
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-ios\iossimulator-x64\build-signature\signature
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-ios\iossimulator-x64\Tigrigna.App.Mobile2.csproj.AssemblyReference.cache
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-ios\iossimulator-x64\mauiimage.inputs
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-ios\iossimulator-x64\mauifont.inputs
@@ -308,3 +307,7 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-ios\
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-ios\iossimulator-x64\Tigrigna.A056919D.Up2Date
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-ios\iossimulator-x64\Tigrigna.App.Mobile2.genruntimeconfig.cache
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-ios\iossimulator-x64\ref\Tigrigna.App.Mobile2.dll
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll

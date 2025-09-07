@@ -1,9 +1,9 @@
-# OS
+OS
 .DS_Store
 Thumbs.db
 
-# Python
-__pycache__/
+Python
+pycache/
 *.pyc
 *.pyo
 *.pyd
@@ -11,20 +11,70 @@ __pycache__/
 env/
 venv/
 
-# Node
+Node
 node_modules/
 dist/
 
-# Env
+Env
 .env
 backend/.env
 worker/.env
 
-# IDE
+IDE
 .vscode/
 .idea/
 
-# Misc
+.NET / Visual Studio
+Visual Studio 2015 and later
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+Build results
+[Bb]in/
+[Oo]bj/
+
+Log files
+*.log
+.log.
+*.vslog
+*.vslg
+*.err
+*.wrn
+
+Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+Windows Store and UWP
+AppPackages/
+BundleArtifacts/
+.tlog/
+*.appx
+*.appxbundle
+*.appxupload
+*.appxsym
+
+NuGet packages
+*.nupkg
+packages/
+
+MAUI/Xamarin specific
+*.*proj.user
+*.xproj
+*.vs.datasource
+*.vspscc
+*.vssscc
+*.sln.ide
+*.cache
+*.sdf
+*.opensdf
+*.intellisense.cache
+
+Misc
 *.log
 *.sqlite
 /BitvavoTradingBot/.vs
@@ -36,3 +86,7 @@ Thumbs.db
 /readme.txt
 /LearnTigrinya-MAUI-Starter-v16/.vs
 /Tigrigna.App.Mobile2/.vs/Tigrigna.App.Mobile2
+/Tigrigna.App.Mobile2/bin
+/Tigrigna.App.Mobile2/obj
+Tigrigna.App.Mobile2/Tigrigna.App.Mobile2/bin/
+Tigrigna.App.Mobile2/Tigrigna.App.Mobile2/obj/
