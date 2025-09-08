@@ -1,7 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Microsoft.Maui.ApplicationModel;
 using Tigrigna.App.Mobile2.Models;
 using Tigrigna.App.Mobile2.Services;
 
@@ -11,6 +10,7 @@ public partial class LettersTypeViewModel : ObservableObject
 {
     private readonly ContentService _content;
     private readonly IProgressStore _progress;
+    private readonly IAudioService _audio;
 
     [ObservableProperty] private LetterItem? current;
     [ObservableProperty] private ObservableCollection<LetterItem> options = new();
@@ -21,24 +21,26 @@ public partial class LettersTypeViewModel : ObservableObject
 
     private List<LetterItem> _pool = new();
 
-    public LettersTypeViewModel(ContentService content, IProgressStore progress)
+    public LettersTypeViewModel(ContentService content, IProgressStore progress, IAudioService audio)
     {
         _content = content;
         _progress = progress;
+        _audio = audio;
     }
 
     public async Task InitializeAsync()
     {
         _pool = (await _content.GetRandomLettersAsync(TotalQuestions)).ToList();
-        //             ^^^^^^^^^^^^^^^ use the generated property (PascalCase)
-
+        QuestionIndex = 0;
+        Score = 0;
+        await LoadQuestionAsync();
     }
 
     [RelayCommand]
     public async Task PlayAsync()
     {
         if (Current is null) return;
-        try { await TextToSpeech.SpeakAsync(Current.Transliteration); } catch { }
+        await _audio.PlayAsync($"{Current.Id}.mp3", Current.Transliteration);
     }
 
     [RelayCommand]
@@ -46,8 +48,15 @@ public partial class LettersTypeViewModel : ObservableObject
     {
         if (Current is null) return;
 
-        if (chosen.Id == Current.Id) { Score++; Feedback = "✅ Correct!"; }
-        else { Feedback = $"❌ Correct was: {Current.Glyph}"; }
+        if (chosen.Id == Current.Id)
+        {
+            Score++;
+            Feedback = "✅ Correct!";
+        }
+        else
+        {
+            Feedback = $"❌ Nope — correct was: {Current.Glyph}";
+        }
 
         await Task.Delay(600);
         if (QuestionIndex + 1 >= TotalQuestions)
@@ -65,11 +74,16 @@ public partial class LettersTypeViewModel : ObservableObject
     private async Task LoadQuestionAsync()
     {
         Feedback = string.Empty;
+
         Current = _pool[QuestionIndex];
 
         var all = (await _content.GetBeginnerLettersAsync()).ToList();
         var rng = new Random();
-        var distractors = all.Where(x => x.Id != Current!.Id).OrderBy(_ => rng.Next()).Take(2).ToList();
+
+        var distractors = all.Where(x => x.Id != Current!.Id)
+                             .OrderBy(_ => rng.Next())
+                             .Take(2)
+                             .ToList();
 
         var opts = new List<LetterItem> { Current! };
         opts.AddRange(distractors);

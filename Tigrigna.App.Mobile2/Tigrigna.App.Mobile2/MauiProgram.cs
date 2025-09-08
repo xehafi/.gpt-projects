@@ -4,6 +4,8 @@ using Microsoft.Extensions.Logging;
 using Tigrigna.App.Mobile2.Services;
 using Tigrigna.App.Mobile2.ViewModels;
 using Tigrigna.App.Mobile2.Views;
+using Plugin.Maui.Audio;
+
 
 namespace Tigrigna.App.Mobile2;  // ← IMPORTANT
 
@@ -44,6 +46,8 @@ public static class MauiProgram
         builder.Services.AddTransient<LettersTypePage>();
         builder.Services.AddTransient<LettersTraceViewModel>();
         builder.Services.AddTransient<LettersTracePage>();
+        builder.Services.AddSingleton<IAudioManager>(AudioManager.Current);
+        builder.Services.AddSingleton<IAudioService, AudioService>();
 
 
 

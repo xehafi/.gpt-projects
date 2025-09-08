@@ -4,6 +4,11 @@
         <name>Tigrigna.App.Mobile2</name>
     </assembly>
     <members>
+        <member name="M:Tigrigna.App.Mobile2.Services.IAudioService.PlayAsync(System.String,System.String)">
+            <summary>
+            Attempts to play an embedded asset from Resources/Raw. If missing, optionally falls back to TTS.
+            </summary>
+        </member>
         <member name="T:Tigrigna.App.Mobile2.ViewModels.LearnViewModel">
             <inheritdoc/>
             <inheritdoc/>

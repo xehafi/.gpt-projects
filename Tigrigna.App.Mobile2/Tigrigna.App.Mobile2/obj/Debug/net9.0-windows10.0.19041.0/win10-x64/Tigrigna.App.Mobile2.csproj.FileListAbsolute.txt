@@ -1,6 +1,9 @@
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Platforms\Windows\App.xbf
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\AboutAssets.txt
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\letters.a.mp3
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\letters.be.mp3
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\letters.beginner.json
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\letters.ge.mp3
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-100.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-125.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-150.png
@@ -8,11 +11,6 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-wind
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\splashSplashScreen.scale-400.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Regular.ttf
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\OpenSans-Semibold.ttf
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-400.png
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-200.png
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-150.png
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-125.png
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-100.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-400.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-200.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLargeTile.scale-150.png
@@ -59,6 +57,11 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-wind
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-125.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appiconLogo.scale-100.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\appicon.ico
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-400.png
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-200.png
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-150.png
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-125.png
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dotnet_bot.scale-100.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\CoreMessagingXP.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dcompi.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\dwmcorei.dll
@@ -373,6 +376,7 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-wind
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.System.Projection.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.Widgets.Projection.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Plugin.Maui.Audio.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\ca\Microsoft.Maui.Controls.resources.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -413,10 +417,6 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-wind
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\WinRT.Runtime.dll
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Web.WebView2.Core.Projection.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.pri
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.UI.Xaml.Controls.pri
@@ -441,11 +441,6 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-wind
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauifont.stamp
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png
@@ -492,6 +487,11 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-wind
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.stamp
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\mauiimage.outputs
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\Tigrigna.App.Mobile2.AssemblyInfoInputs.cache

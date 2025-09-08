@@ -16,6 +16,7 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-macc
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Essentials.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Graphics.dll
+C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Plugin.Maui.Audio.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ar\Microsoft.Maui.Controls.resources.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\ca\Microsoft.Maui.Controls.resources.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\cs\Microsoft.Maui.Controls.resources.dll
@@ -247,10 +248,6 @@ C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-macc
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet-nativeaot.a
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.a
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\libxamarin-dotnet.dylib
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\Tigrigna.App.Mobile2.csproj.AssemblyReference.cache
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauiimage.inputs
 C:\.gpt-projects\Tigrigna.App.Mobile2\Tigrigna.App.Mobile2\obj\Debug\net9.0-maccatalyst\maccatalyst-x64\mauifont.inputs

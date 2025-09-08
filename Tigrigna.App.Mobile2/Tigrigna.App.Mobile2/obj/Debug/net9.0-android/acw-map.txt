@@ -625,6 +625,9 @@ microsoft.maui.devices.sensors.OrientationSensorListener;crc64f62664462a8937a9.O
 Microsoft.Maui.Graphics.Platform.PlatformGraphicsView, Microsoft.Maui.Graphics;crc643f2b18b2570eaa5a.PlatformGraphicsView
 Microsoft.Maui.Graphics.Platform.PlatformGraphicsView;crc643f2b18b2570eaa5a.PlatformGraphicsView
 microsoft.maui.graphics.platform.PlatformGraphicsView;crc643f2b18b2570eaa5a.PlatformGraphicsView
+Plugin.Maui.Audio.StreamMediaDataSource, Plugin.Maui.Audio;crc64467b05f37239e7a6.StreamMediaDataSource
+Plugin.Maui.Audio.StreamMediaDataSource;crc64467b05f37239e7a6.StreamMediaDataSource
+plugin.maui.audio.StreamMediaDataSource;crc64467b05f37239e7a6.StreamMediaDataSource
 Bumptech.Glide.Glide+IRequestOptionsFactory, Xamarin.Android.Glide;com.bumptech.glide.Glide$RequestOptionsFactory
 Bumptech.Glide.Glide.IRequestOptionsFactory;com.bumptech.glide.Glide$RequestOptionsFactory
 com.bumptech.glide.Glide$RequestOptionsFactory;com.bumptech.glide.Glide$RequestOptionsFactory

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Q4FqFWYbJto=",
+  "dgSpecHash": "aRdvz4v8dNw=",
   "success": true,
   "projectFilePath": "C:\\.gpt-projects\\Tigrigna.App.Mobile2\\Tigrigna.App.Mobile2\\Tigrigna.App.Mobile2.csproj",
   "expectedPackageFiles": [
@@ -30,6 +30,7 @@
     "C:\\Users\\semha\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\semha\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\semha\\.nuget\\packages\\microsoft.windowsappsdk\\1.7.250513003\\microsoft.windowsappsdk.1.7.250513003.nupkg.sha512",
+    "C:\\Users\\semha\\.nuget\\packages\\plugin.maui.audio\\4.0.0\\plugin.maui.audio.4.0.0.nupkg.sha512",
     "C:\\Users\\semha\\.nuget\\packages\\xamarin.android.glide\\4.16.0.12\\xamarin.android.glide.4.16.0.12.nupkg.sha512",
     "C:\\Users\\semha\\.nuget\\packages\\xamarin.android.glide.annotations\\4.16.0.12\\xamarin.android.glide.annotations.4.16.0.12.nupkg.sha512",
     "C:\\Users\\semha\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.16.0.12\\xamarin.android.glide.disklrucache.4.16.0.12.nupkg.sha512",
