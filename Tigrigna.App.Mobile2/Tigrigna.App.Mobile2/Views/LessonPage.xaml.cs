@@ -15,8 +15,14 @@ public partial class LessonPage : ContentPage
         InitializeComponent();
         _vm = vm;
         _nav = nav;
+        _vm.LessonCompleted += async (_, __) =>
+        {
+            await DisplayAlert("Great!", "XP awarded +5 and marked completed.", "OK");
+            await _nav.GoBackAsync();
+        };
         BindingContext = _vm;
     }
+
 
     // Shell will set this when navigating with ?skillId=...
     public string? SkillId
@@ -32,4 +38,10 @@ public partial class LessonPage : ContentPage
 
     private async void OnBackClicked(object? sender, EventArgs e)
         => await _nav.GoBackAsync();
+    private async void OnStartTypeClicked(object? sender, EventArgs e)
+    => await _nav.GoToLettersTypeAsync();
+
+    private async void OnStartTraceClicked(object? sender, EventArgs e)
+        => await _nav.GoToLettersTraceAsync(_vm.Icon); // pass glyph; Icon is our glyph here
+
 }

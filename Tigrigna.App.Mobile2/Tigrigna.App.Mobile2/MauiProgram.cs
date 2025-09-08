@@ -34,6 +34,19 @@ public static class MauiProgram
         builder.Services.AddTransient<LessonViewModel>();
         builder.Services.AddTransient<LessonPage>();
 
+        builder.Services.AddSingleton<IProgressStore, PreferencesProgressStore>();
+        builder.Services.AddTransient<ProgressViewModel>();
+        builder.Services.AddTransient<ProgressPage>();
+
+        builder.Services.AddTransient<SettingsViewModel>();
+        builder.Services.AddTransient<SettingsPage>();
+        builder.Services.AddTransient<LettersTypeViewModel>();
+        builder.Services.AddTransient<LettersTypePage>();
+        builder.Services.AddTransient<LettersTraceViewModel>();
+        builder.Services.AddTransient<LettersTracePage>();
+
+
+
         var app = builder.Build();
         Ioc.Default.ConfigureServices(app.Services);
         return app;

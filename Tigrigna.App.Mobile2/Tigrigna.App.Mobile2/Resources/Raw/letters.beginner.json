@@ -1,0 +1,22 @@
+{
+  "letters": [
+    {
+      "id": "letters.a",
+      "glyph": "ኣ",
+      "transliteration": "ä",
+      "xp": 3
+    },
+    {
+      "id": "letters.be",
+      "glyph": "በ",
+      "transliteration": "be",
+      "xp": 3
+    },
+    {
+      "id": "letters.ge",
+      "glyph": "ገ",
+      "transliteration": "ge",
+      "xp": 3
+    }
+  ]
+}

@@ -7,4 +7,10 @@ public class ShellNavigationService : INavigationService
 
     public Task GoBackAsync()
         => Shell.Current.GoToAsync("..");
+    public Task GoToLettersTypeAsync()
+    => Shell.Current.GoToAsync("lettersType");
+
+    public Task GoToLettersTraceAsync(string glyph)
+        => Shell.Current.GoToAsync($"lettersTrace?glyph={Uri.EscapeDataString(glyph)}");
+
 }

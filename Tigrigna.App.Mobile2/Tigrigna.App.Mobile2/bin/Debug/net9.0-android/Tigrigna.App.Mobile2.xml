@@ -36,6 +36,126 @@
         <member name="P:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.OpenLessonCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.LearnViewModel.OpenLesson(Tigrigna.App.Mobile2.Models.SkillCard)"/>.</summary>
         </member>
+        <member name="T:Tigrigna.App.Mobile2.ViewModels.LessonViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.Title">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.title"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.Subtitle">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.subtitle"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.Icon">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.icon"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.Xp">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.xp"/>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.completeCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.CompleteCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.CompleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.LessonViewModel.CompleteAsync"/>.</summary>
+        </member>
+        <member name="T:Tigrigna.App.Mobile2.ViewModels.LettersTraceViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTraceViewModel.Glyph">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LettersTraceViewModel.glyph"/>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.LettersTraceViewModel.completeCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.LettersTraceViewModel.CompleteCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTraceViewModel.CompleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.LettersTraceViewModel.CompleteAsync"/>.</summary>
+        </member>
+        <member name="T:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.Current">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.current"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.Options">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.options"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.Feedback">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.feedback"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.QuestionIndex">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.questionIndex"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.TotalQuestions">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.totalQuestions"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.Score">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.score"/>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.playCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.PlayCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.PlayCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.PlayAsync"/>.</summary>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.chooseCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.ChooseCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.ChooseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.LettersTypeViewModel.ChooseAsync(Tigrigna.App.Mobile2.Models.LetterItem)"/>.</summary>
+        </member>
+        <member name="T:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.TotalXp">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.totalXp"/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.CompletedCount">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.completedCount"/>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.loadCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.LoadCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.LoadCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.LoadAsync"/>.</summary>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.resetCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.ResetCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.ResetCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.ProgressViewModel.ResetAsync"/>.</summary>
+        </member>
+        <member name="T:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.Theme">
+            <inheritdoc cref="F:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.theme"/>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.setLightCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.SetLightCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.SetLightCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.SetLight"/>.</summary>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.setDarkCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.SetDarkCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.SetDarkCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.SetDark"/>.</summary>
+        </member>
+        <member name="F:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.resetProgressCommand">
+            <summary>The backing field for <see cref="P:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.ResetProgressCommand"/>.</summary>
+        </member>
+        <member name="P:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.ResetProgressCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Tigrigna.App.Mobile2.ViewModels.SettingsViewModel.ResetProgressAsync"/>.</summary>
+        </member>
         <member name="T:Tigrigna.App.Mobile2.Resource">
             <summary>
             Android Resource Designer class.
@@ -63,6 +183,48 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StartLabel">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StartLabel" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Subtitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Subtitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Icon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Icon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Xp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Xp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Glyph">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Glyph" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Current">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Current" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Options">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Options" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Feedback">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Feedback" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.QuestionIndex">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "QuestionIndex" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalQuestions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalQuestions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Score">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Score" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TotalXp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TotalXp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CompletedCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CompletedCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Theme">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Theme" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -83,6 +245,48 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StartLabel">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StartLabel" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Subtitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Subtitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Icon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Icon" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Xp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Xp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Glyph">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Glyph" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Current">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Current" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Options">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Options" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Feedback">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Feedback" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.QuestionIndex">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "QuestionIndex" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalQuestions">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalQuestions" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Score">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Score" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TotalXp">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TotalXp" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CompletedCount">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CompletedCount" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Theme">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Theme" generated properties.</summary>
         </member>
     </members>
 </doc>

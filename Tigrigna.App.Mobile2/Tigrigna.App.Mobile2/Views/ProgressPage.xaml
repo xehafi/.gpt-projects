@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tigrigna.App.Mobile2.Views.ProgressPage"
+             Title="Progress">
+    <VerticalStackLayout Padding="16" Spacing="12">
+        <Label Text="Your Progress" FontSize="24" FontAttributes="Bold" />
+        <Frame Padding="12">
+            <VerticalStackLayout>
+                <Label Text="{Binding TotalXp, StringFormat='Total XP: {0}'}" FontSize="18" />
+                <Label Text="{Binding CompletedCount, StringFormat='Lessons completed: {0}'}" />
+            </VerticalStackLayout>
+        </Frame>
+        <Button Text="Reset Progress" Command="{Binding ResetCommand}" />
+    </VerticalStackLayout>
+</ContentPage>

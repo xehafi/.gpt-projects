@@ -68,3 +68,27 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Tigrigna.App.Mobile2.Views.LessonPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LessonPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LessonPage.xaml
+
+[C:/.gpt-projects/Tigrigna.App.Mobile2/Tigrigna.App.Mobile2/Views/LettersTracePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Tigrigna.App.Mobile2.Views.LettersTracePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LettersTracePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LettersTracePage.xaml
+
+[C:/.gpt-projects/Tigrigna.App.Mobile2/Tigrigna.App.Mobile2/Views/LettersTypePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Tigrigna.App.Mobile2.Views.LettersTypePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LettersTypePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LettersTypePage.xaml
+
+[C:/.gpt-projects/Tigrigna.App.Mobile2/Tigrigna.App.Mobile2/Views/ProgressPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Tigrigna.App.Mobile2.Views.ProgressPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProgressPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProgressPage.xaml
+
+[C:/.gpt-projects/Tigrigna.App.Mobile2/Tigrigna.App.Mobile2/Views/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Tigrigna.App.Mobile2.Views.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SettingsPage.xaml

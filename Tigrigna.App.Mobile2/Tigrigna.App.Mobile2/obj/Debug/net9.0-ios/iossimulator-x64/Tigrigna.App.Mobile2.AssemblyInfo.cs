@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tigrigna.App.Mobile2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+fab16957293edae72ee14ecc42b6020f46240a9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+657e7c0aa0fdf0c16a56430b06bdbd9cbb8666ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tigrigna.App.Mobile2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tigrigna.App.Mobile2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

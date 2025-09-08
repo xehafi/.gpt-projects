@@ -18,6 +18,16 @@
             </Frame>
 
             <Button Text="Back" Clicked="OnBackClicked" />
+            <Button Text="Complete Lesson" Command="{Binding CompleteCommand}" />
+            <Button Text="Type what you hear"
+        IsVisible="{Binding Title, Converter={StaticResource EqualsConverter}, ConverterParameter=Letters}"
+        Clicked="OnStartTypeClicked" />
+
+            <Button Text="Trace the glyph"
+        IsVisible="{Binding Title, Converter={StaticResource EqualsConverter}, ConverterParameter=Letters}"
+        Clicked="OnStartTraceClicked" />
+
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>
