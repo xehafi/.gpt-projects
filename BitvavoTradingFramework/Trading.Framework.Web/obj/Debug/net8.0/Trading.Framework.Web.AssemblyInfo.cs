@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Trading.Framework.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+298a9cc6ba7b58556a338edce735366cfeb39ea2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d4fa353d40cf4cb6027fad9b3d99b6894e98621")]
 [assembly: System.Reflection.AssemblyProductAttribute("Trading.Framework.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Trading.Framework.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

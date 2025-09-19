@@ -1,0 +1,54 @@
+@page "/market"
+@model MarketPageModel
+@{ ViewData["Title"] = "Market Overview"; }
+<div class="container">
+  <h2 class="my-3">Market Overview</h2>
+  <form method="get" class="row g-2 mb-3">
+    <div class="col-auto"><input class="form-control" name="market" value="@Model.Market" placeholder="BTC-EUR"/></div>
+    <div class="col-auto"><input class="form-control" type="number" name="minutes" value="@Model.Minutes" min="1" max="1440"/></div>
+    <div class="col-auto"><button class="btn btn-primary">Load</button></div>
+  </form>
+  <div class="row g-3 mb-3">
+    <div class="col-md-3"><div class="card"><div class="card-body"><div class="text-muted">Last Price</div><div class="fs-4" id="lastPrice">—</div></div></div></div>
+    <div class="col-md-3"><div class="card"><div class="card-body"><div class="text-muted">Change</div><div class="fs-4"><span id="chg">—</span> <small id="pct" class="text-muted"></small></div></div></div></div>
+    <div class="col-md-3"><div class="card"><div class="card-body"><div class="text-muted">Samples</div><div class="fs-4" id="count">—</div></div></div></div>
+    <div class="col-md-3"><div class="card"><div class="card-body"><div class="text-muted">Window</div><div class="fs-4"><span id="window">—</span> min</div></div></div></div>
+  </div>
+  <canvas id="chart" height="120"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+const qs = new URLSearchParams(window.location.search);
+const market = qs.get('market') || 'BTC-EUR';
+const minutes = parseInt(qs.get('minutes') || '60', 10);
+document.getElementById('window').textContent = minutes.toString();
+let chart;
+async function load() {
+  const base = window.location.origin;
+  const sres = await fetch(`${base}/api/summary?market=${encodeURIComponent(market)}&minutes=${minutes}`);
+  const summary = await sres.json();
+  document.getElementById('lastPrice').textContent = summary.lastPrice?.toFixed?.(5) ?? '—';
+  const chg = summary.change ?? 0;
+  document.getElementById('chg').textContent = chg.toFixed(5);
+  const pct = summary.pct ?? 0;
+  document.getElementById('pct').textContent = `(${pct.toFixed(3)}%)`;
+  document.getElementById('pct').className = pct >= 0 ? 'text-success' : 'text-danger';
+  document.getElementById('count').textContent = summary.count ?? 0;
+  const rres = await fetch(`${base}/api/series?market=${encodeURIComponent(market)}&minutes=${minutes}`);
+  const series = await rres.json();
+  const labels = series.map(x => new Date(x.timestamp).toLocaleTimeString());
+  const data = series.map(x => x.price);
+  if (!chart) {
+    chart = new Chart(document.getElementById('chart').getContext('2d'), {
+      type: 'line',
+      data: { labels, datasets: [{ label: market, data, fill: false, tension: 0.2 }] },
+      options: { responsive: true, animation: false, interaction: { mode:'index', intersect:false }, scales: { x:{display:true}, y:{display:true} } }
+    });
+  } else {
+    chart.data.labels = labels;
+    chart.data.datasets[0].data = data;
+    chart.update();
+  }
+}
+load(); setInterval(load, 5000);
+</script>

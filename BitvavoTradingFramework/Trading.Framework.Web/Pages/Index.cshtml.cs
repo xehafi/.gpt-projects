@@ -1,5 +1,1 @@
-using Microsoft.AspNetCore.Mvc.RazorPages;
-public sealed class IndexModel : PageModel
-{
-    public void OnGet() { }
-}
+using Microsoft.AspNetCore.Mvc.RazorPages; public sealed class IndexModel : PageModel { public void OnGet() {} }

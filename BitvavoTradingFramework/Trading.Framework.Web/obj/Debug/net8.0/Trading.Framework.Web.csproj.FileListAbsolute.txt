@@ -9,13 +9,9 @@ D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Npgsql.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Serilog.dll
@@ -27,7 +23,6 @@ D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Serilog.Sinks.File.dll
-D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\System.Reactive.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Websocket.Client.dll
 D:\.gpt-projects\BitvavoTradingFramework\Trading.Framework.Web\bin\Debug\net8.0\Trading.Framework.Application.dll
