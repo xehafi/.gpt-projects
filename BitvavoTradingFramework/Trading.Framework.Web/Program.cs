@@ -30,4 +30,18 @@ app.MapRazorPages();
 
 app.MapGet("/health", () => Results.Ok(new { status = "ok", time = DateTimeOffset.UtcNow }));
 
+app.MapGet("/api/tickers", async (string? market, int take, ITradeRepository repo, CancellationToken ct) =>
+{
+    take = take <= 0 ? 200 : take; // default
+    var items = await repo.GetRecentTickersAsync(market, take, ct);
+    return Results.Ok(items);
+});
+
+app.MapGet("/api/last", async (string market, ITradeRepository repo, CancellationToken ct) =>
+{
+    if (string.IsNullOrWhiteSpace(market)) return Results.BadRequest("market is required");
+    var last = await repo.GetLastTickerAsync(market, ct);
+    return last is null ? Results.NotFound() : Results.Ok(last);
+});
+
 app.Run();

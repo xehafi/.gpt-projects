@@ -1,0 +1,54 @@
+﻿@page "/tickers"
+@model TickersPageModel
+@{
+    ViewData["Title"] = "Recent Tickers";
+}
+
+<div class="container">
+    <h2 class="my-3">Recent Tickers</h2>
+
+    <form method="get" class="row g-2 mb-3">
+        <div class="col-auto">
+            <input name="market" value="@Model.Market" class="form-control" placeholder="e.g., BTC-EUR" />
+        </div>
+        <div class="col-auto">
+            <input name="take" value="@Model.Take" class="form-control" type="number" min="1" max="1000" />
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-primary" formaction="/tickers">Load</button>
+        </div>
+    </form>
+
+    @if (Model.Items.Count == 0)
+    {
+        <div class="alert alert-info">No data yet. Run the Console ingestor first.</div>
+    }
+    else
+    {
+        <table class="table table-sm table-striped">
+            <thead class="table-light">
+                <tr>
+                    <th>Timestamp (UTC)</th>
+                    <th>Market</th>
+                    <th class="text-end">Price</th>
+                    <th class="text-end">Bid</th>
+                    <th class="text-end">Ask</th>
+                    <th class="text-end">Seq</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var t in Model.Items)
+                {
+                    <tr>
+                        <td>@t.Timestamp.ToUniversalTime().ToString("yyyy-MM-dd HH:mm:ss")</td>
+                        <td>@t.Market</td>
+                        <td class="text-end">@t.Price</td>
+                        <td class="text-end">@t.BestBid</td>
+                        <td class="text-end">@t.BestAsk</td>
+                        <td class="text-end">@t.Sequence</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
