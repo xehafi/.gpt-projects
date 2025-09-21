@@ -6,6 +6,22 @@ public sealed class BitvavoTickerSource : IMarketDataSource
 {
     private readonly ILogger<BitvavoTickerSource> _log;
     public BitvavoTickerSource(ILogger<BitvavoTickerSource> log) => _log = log;
+
+    public Task ConnectAsync(CancellationToken ct)
+    {
+        throw new NotImplementedException();
+    }
+
+    public ValueTask DisposeAsync()
+    {
+        throw new NotImplementedException();
+    }
+
+    public IAsyncEnumerable<Ticker> ReadTickersAsync(CancellationToken ct)
+    {
+        throw new NotImplementedException();
+    }
+
     public async IAsyncEnumerable<Ticker> StreamTickersAsync(string market, [System.Runtime.CompilerServices.EnumeratorCancellation] CancellationToken ct = default)
     {
         var rand = new Random(); long seq = 0; decimal price = 100m;
@@ -16,5 +32,10 @@ public sealed class BitvavoTickerSource : IMarketDataSource
             yield return new Ticker(market, price, price-0.01m, price+0.01m, ++seq, DateTimeOffset.UtcNow);
             try { await Task.Delay(TimeSpan.FromSeconds(1), ct); } catch { yield break; }
         }
+    }
+
+    public Task SubscribeTickersAsync(IEnumerable<string> markets, CancellationToken ct)
+    {
+        throw new NotImplementedException();
     }
 }

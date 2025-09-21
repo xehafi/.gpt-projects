@@ -101,4 +101,20 @@ public sealed class PostgresTradeRepository : ITradeRepository
         )).ToList();
         return rows.AsReadOnly();
     }
+
+    public Task AddTickerAsync(Ticker tick, CancellationToken stoppingToken)
+    {
+        return SaveTickerAsync(tick, stoppingToken);
+    }
+    //public async Task SaveTickerAsync(Ticker t, CancellationToken ct)
+    //{
+    //    await using var con = new NpgsqlConnection(_connStr);
+    //    await con.OpenAsync(ct);
+    //    var sql = @"
+    //    insert into public.tickers(market, price, best_bid, best_ask, sequence, ts)
+    //    values (@Market, @Price, @BestBid, @BestAsk, @Sequence, @Timestamp);
+    //";
+    //    await con.ExecuteAsync(new CommandDefinition(sql, t, cancellationToken: ct));
+    //}
+
 }

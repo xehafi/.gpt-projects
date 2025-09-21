@@ -7,4 +7,5 @@ public interface ITradeRepository
     Task<IReadOnlyList<Ticker>> GetRecentTickersAsync(string? market, int take, CancellationToken ct);
     Task<Ticker?> GetLastTickerAsync(string market, CancellationToken ct);
     Task<IReadOnlyList<Ticker>> GetTickersSinceAsync(string market, DateTimeOffset sinceUtc, CancellationToken ct);
+    Task AddTickerAsync(Ticker tick, CancellationToken stoppingToken);
 }

@@ -1,9 +1,12 @@
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Serilog;
+using Trading.Framework.Application.Orchestrator;
+using Trading.Framework.Application.Strategies;
 using Trading.Framework.Core.Abstractions;
 using Trading.Framework.Infrastructure.Bitvavo;
+using Trading.Framework.Infrastructure.Hosted;
+using Trading.Framework.Infrastructure.MarketData;
 using Trading.Framework.Infrastructure.Persistence;
-using Trading.Framework.Application.Strategies;
-using Trading.Framework.Application.Orchestrator;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,10 +14,20 @@ builder.Configuration.AddJsonFile("appsettings.json", optional: true).AddEnviron
 builder.Host.UseSerilog((ctx, cfg) => cfg.ReadFrom.Configuration(ctx.Configuration).WriteTo.Console());
 
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IMarketDataSource, BitvavoTickerSource>();
 builder.Services.AddSingleton<ITradeRepository, PostgresTradeRepository>();
+    // after repo/services wiring
+builder.Services.AddBitvavoTickerIngestion();
+
+/*
+ * services.TryAddSingleton<IBitvavoWsClient, BitvavoWsClient>();
+        services.TryAddSingleton<IMarketDataSource, BitvavoWebSocketTickerSource>();
+        services.AddHostedService(sp => (BitvavoWebSocketTickerSource)sp.GetRequiredService<IMarketDataSource>());
+        services.AddHostedService<TickerPersistenceWorker>();
+ */
+builder.Services.AddHostedService<TickerIngestionService>();
 builder.Services.AddSingleton<ITradingStrategy, EchoStrategy>();
 builder.Services.AddSingleton<TickerOrchestrator>();
+builder.Services.Configure<BitvavoOptions>(builder.Configuration.GetSection("Bitvavo"));
 
 var app = builder.Build();
 
@@ -65,5 +78,8 @@ app.MapGet("/api/summary", async (string market, int minutes, ITradeRepository r
     decimal pct = first.Price == 0 ? 0 : (change / first.Price) * 100m;
     return Results.Ok(new { market, minutes, count = series.Count, lastPrice = last.Price, firstPrice = first.Price, change, pct });
 });
+
+//step-4
+app.MapGet("/", () => "BitvavoTrading Framework — Ingestion running");
 
 app.Run();

@@ -1,5 +1,9 @@
 namespace Trading.Framework.Core.Abstractions;
-public interface IMarketDataSource
+
+public interface IMarketDataSource : IAsyncDisposable
 {
-    IAsyncEnumerable<Ticker> StreamTickersAsync(string market, CancellationToken ct = default);
+    Task ConnectAsync(CancellationToken ct);
+    Task SubscribeTickersAsync(IEnumerable<string> markets, CancellationToken ct);
+    IAsyncEnumerable<Ticker> ReadTickersAsync(CancellationToken ct);
+    IAsyncEnumerable<Ticker> StreamTickersAsync(string market, CancellationToken ct);
 }
