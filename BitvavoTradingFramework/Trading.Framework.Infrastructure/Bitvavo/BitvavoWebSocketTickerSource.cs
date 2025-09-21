@@ -38,6 +38,7 @@ public sealed class BitvavoWebSocketTickerSource : BackgroundService, IMarketDat
     public override async Task StopAsync(CancellationToken ct)
     {
         await _ws.StopAsync(ct);
+        _channel.Writer.TryComplete();
         await base.StopAsync(ct);
     }
 

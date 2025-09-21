@@ -9,17 +9,21 @@ public sealed class BitvavoTickerSource : IMarketDataSource
 
     public Task ConnectAsync(CancellationToken ct)
     {
-        throw new NotImplementedException();
+        // No-op for mock source
+        return Task.CompletedTask;
     }
 
     public ValueTask DisposeAsync()
     {
-        throw new NotImplementedException();
+        // Nothing to dispose in mock
+        return ValueTask.CompletedTask;
     }
 
-    public IAsyncEnumerable<Ticker> ReadTickersAsync(CancellationToken ct)
+    public async IAsyncEnumerable<Ticker> ReadTickersAsync(CancellationToken ct)
     {
-        throw new NotImplementedException();
+        // Forward to a default market stream if needed
+        await foreach (var t in StreamTickersAsync("BTC-EUR", ct))
+            yield return t;
     }
 
     public async IAsyncEnumerable<Ticker> StreamTickersAsync(string market, [System.Runtime.CompilerServices.EnumeratorCancellation] CancellationToken ct = default)
@@ -36,6 +40,8 @@ public sealed class BitvavoTickerSource : IMarketDataSource
 
     public Task SubscribeTickersAsync(IEnumerable<string> markets, CancellationToken ct)
     {
-        throw new NotImplementedException();
+        // Mock source ignores market list; real WS source handles it
+        _log.LogInformation("[MOCK] Subscribe called for {Count} market(s)", markets?.Count() ?? 0);
+        return Task.CompletedTask;
     }
 }
